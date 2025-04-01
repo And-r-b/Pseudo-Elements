@@ -1,7 +1,8 @@
 body {
     background-color: rgba(72, 136, 4, 0.597);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 600px;
-
+    
 }
 button:hover {
     background-color: rgba(255, 13, 0, 0.634);
