@@ -1,3 +1,7 @@
 body {
     width: 600px;
 }
+button:hover {
+    background-color: darkolivegreen;
+    color: white;
+}
