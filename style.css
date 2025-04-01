@@ -17,6 +17,18 @@ h2::before {
     content:"🐈‍⬛";
 }
 
+li:nth-child(odd) {
+    background-color: white;
+}
+
+li:first-child {
+    background-color: rgb(137, 219, 14);
+}
+
+li:last-child {
+    background-color: darkcyan;
+}
+
 p::first-letter {
     font-size: large;
     font-weight: bold;
@@ -25,7 +37,30 @@ p::first-letter {
     background-color: black;
     color: white;
 }
+
+p:nth-child(even) {
+    background-color: burlywood;
+}
+
+.norwegian-forest-cat::before {
+    content: "This content is before";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aqua;
+    font-size: 20px;
+}
+
+.norwegian-forest-cat::after {
+    content: "Content is after";
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
 button:hover {
     background-color: rgba(255, 13, 0, 0.634);
     color: white;
+}
+
+h1:not(.maine-coon-cat) {
+    color: brown;
 }
