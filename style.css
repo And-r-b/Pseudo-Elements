@@ -2,7 +2,28 @@ body {
     background-color: rgba(72, 136, 4, 0.597);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 600px;
-    
+
+}
+
+li::after {
+    content: " ⭐"
+}
+
+h1::first-line {
+    background-color: rgb(0, 208, 255);
+}
+
+h2::before {
+    content:"🐈‍⬛";
+}
+
+p::first-letter {
+    font-size: large;
+    font-weight: bold;
+    border: 2px solid black;
+    border-style: double;
+    background-color: black;
+    color: white;
 }
 button:hover {
     background-color: rgba(255, 13, 0, 0.634);
