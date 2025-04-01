@@ -1,7 +1,9 @@
 body {
+    background-color: rgba(72, 136, 4, 0.597);
     width: 600px;
+
 }
 button:hover {
-    background-color: darkolivegreen;
+    background-color: rgba(255, 13, 0, 0.634);
     color: white;
 }
